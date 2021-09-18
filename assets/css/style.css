@@ -205,7 +205,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #b767e6;
 }
 
+.navbar .box
+{
+  border: 3px solid ;
+  text-align: center;
+  padding:5px;
+}
 
+.navbar .register
+{
+  padding-left: 40px;
+ 
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -235,6 +246,17 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  .navbar .box
+{
+  border: none;
+  text-align: center;
+  padding:15px;
+}
+  .navbar .register
+  {
+    padding-left: 5px;
+ 
+}
 }
 
 .navbar-mobile {
@@ -459,6 +481,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -499,6 +524,20 @@ section {
   bottom: 0;
   left: calc(50% - 20px);
 }
+#team h4 {
+  font-size: 28px;
+  margin-top: 100px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+
+
+
 
 .section-header p {
   text-align: center;
@@ -523,7 +562,9 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: rgb(243, 243, 243);
+  background-color: #fff;
+  
+
 }
 .timeline {
   width: 80%;
@@ -623,7 +664,7 @@ section {
 /* events Section
 --------------------------------*/
 #events {
-  background: #fff;
+  background: rgb(243, 243, 243);
   padding: 60px 0;
 }
 
@@ -826,7 +867,7 @@ section {
   font-size: 16px;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footer-top .social-links a:hover{
   background: #b767e6;
   color: #fff;
 }
