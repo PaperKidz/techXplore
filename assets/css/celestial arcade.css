@@ -374,18 +374,18 @@ body {
   }
   
   .portfolio-details .portfolio-info h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 900;
     margin-bottom: 20px;
-    margin-left: 180px;
+    margin-left: 150px;
     padding-bottom: 20px;
     
   }
   .portfolio-details .portfolio-info h2 {
-    font-size: 45px;
+    font-size: 47px;
     font-weight: 800;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 160px;
     padding-bottom: 90px;
     
   }
@@ -432,14 +432,30 @@ body {
       padding-bottom: 20px;
       
     }
+    .portfolio-details .portfolio-info h2 {
+      font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-left: 150px;
+      padding-bottom: 20px;
+      
+    }
     
   }
   @media (max-width: 770px) {
     .portfolio-details .portfolio-info h1 {
-      font-size: 40px;
+      font-size: 25px;
       font-weight: 900;
       margin-bottom: 20px;
-      margin-left: 130px;
+      margin-left: 70px;
+      padding-bottom: 20px;
+      
+    }
+    .portfolio-details .portfolio-info h2 {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-left: 70px;
       padding-bottom: 20px;
       
     }
@@ -452,6 +468,14 @@ body {
   }
   @media (max-width: 770px) {
     .portfolio-details .portfolio-info h1 {
+      font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-left: 80px;
+      padding-bottom: 20px;
+      
+    }
+    .portfolio-details .portfolio-info h2 {
       font-size: 40px;
       font-weight: 900;
       margin-bottom: 20px;
